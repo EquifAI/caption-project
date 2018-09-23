@@ -108,7 +108,7 @@ def download_all_keras_resources(keras_models, keras_datasets):
     )
 
 
-def download_week_3_resources(save_path):
+def download_res1(save_path):
     # Originals:
     # http://www.robots.ox.ac.uk/~vgg/data/flowers/102/102flowers.tgz
     # http://www.robots.ox.ac.uk/~vgg/data/flowers/102/imagelabels.mat
@@ -122,7 +122,7 @@ def download_week_3_resources(save_path):
     )
 
 
-def download_week_4_resources(save_path):
+def download_res2(save_path):
     # Originals
     # http://www.cs.columbia.edu/CAVE/databases/pubfig/download/lfw_attributes.txt
     # http://vis-www.cs.umass.edu/lfw/lfw-deepfunneled.tgz
@@ -138,7 +138,7 @@ def download_week_4_resources(save_path):
     )
 
 
-def download_week_6_resources(save_path):
+def download_res3(save_path):
     # Originals:
     # http://msvocds.blob.core.windows.net/annotations-1-0-3/captions_train-val2014.zip
     sequential_downloader(
