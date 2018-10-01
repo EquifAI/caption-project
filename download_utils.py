@@ -159,15 +159,3 @@ def download_res3(save_path):
 def link_all_keras_resources():
     link_all_files_from_dir("../readonly/keras/datasets/", os.path.expanduser("~/.keras/datasets"))
     link_all_files_from_dir("../readonly/keras/models/", os.path.expanduser("~/.keras/models"))
-
-
-def link_week_3_resources():
-    link_all_files_from_dir("../readonly/week3/", ".")
-
-
-def link_week_4_resources():
-    link_all_files_from_dir("../readonly/week4/", ".")
-
-
-def link_week_6_resources():
-    link_all_files_from_dir("../readonly/week6/", ".")
